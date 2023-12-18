@@ -1,0 +1,23 @@
+{
+  "name": "prettier-config-devjskit",
+  "version": "3.0.3",
+  "description": "Reasonable Prettier Config",
+  "homepage": "https://devjskit.github.io/prettier-config",
+  "bugs": "https://github.com/devjskit/prettier-config/issues",
+  "prettier": "./index.json",
+  "license": "MIT",
+  "author": "Billgo <hi@billgo.me>",
+  "main": "index.json",
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-sort-json": "^4.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.14"
+  },
+  "peerDependencies": {
+    "prettier": ">= 3.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
